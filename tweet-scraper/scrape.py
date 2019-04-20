@@ -12,8 +12,8 @@ with open('config.json') as f:
     keys = json.load(f)
 
 user = keys['user']
-start = datetime.datetime(2013, 8, 1)  # year, month, day
-end = datetime.datetime(2019, 4, 10)  # year, month, day
+start = datetime.datetime(2015, 8, 2)  # year, month, day
+end = datetime.datetime(2016, 8, 1)  # year, month, day
 
 delay = 1  # time to wait on each page load before reading the page
 driver = webdriver.Chrome()  # options are Chrome() Firefox() Safari()
